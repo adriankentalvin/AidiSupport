@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/background">
+  
+  <TextView 
+  		android:layout_marginTop="40dp"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="Hospital/s:"/>
+  
+  <Spinner 
+  		
+  		android:id="@+id/spinDoctorsHospitals" 
+  		android:layout_width="match_parent"
+		android:layout_height="wrap_content" 
+		android:drawSelectorOnTop="true"
+		 />
+		<TextView 
+  		
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="Specialization:"/>
+  <Spinner 
+  		android:id="@+id/spinDoctorsSpecialization" 
+  		android:layout_width="match_parent"
+		android:layout_height="wrap_content" 
+		android:drawSelectorOnTop="true" />
+  <EditText 
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:hint="First Name"
+  		android:id="@+id/etDoctorsFname"
+	/>
+	 <EditText 
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:hint="Middle Name"
+  		android:id="@+id/etDoctorsMname"/>
+	/>
+	 <EditText 
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:hint="Last Name"
+  		android:id="@+id/etDoctorsLname"/>
+  		
+  	<EditText 
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:hint="Short Biography"
+  		android:id="@+id/etDoctorsBio"
+  		android:singleLine="false"
+  		/>
+	 <EditText 
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:hint="Contact number"
+  		android:id="@+id/etDoctorsContactNumber"
+	/>
+	
+    
+</LinearLayout>

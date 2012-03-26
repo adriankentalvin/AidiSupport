@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, AidisupportActivity!</string>
+	<string name="app_name">Aidisupport</string>
+	<string name="doctors">Doctors</string>
+	<string name="medicine">Medicines</string>
+	<string name="disease">Diseases</string>
+	<string name="save">Save</string>
+	<string name="cancel">Cancel</string>
+	<string name="hospital">Hospitals</string>
+	<string name="symptoms">Symptoms</string>
+	<string name="specializations">Specialization</string>
+</resources>
